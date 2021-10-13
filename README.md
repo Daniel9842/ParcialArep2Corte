@@ -76,4 +76,23 @@ http://localhost:4567/exp?value=10
 
 [Licensia ](https://github.com/Daniel9842/ParcialArep2Corte/blob/master/LICENSE.txt)
 
+##EC2 
 
+Acceda la máquina virtual en AWS y coloque los siguiente comandos:
+1.Actualiza la máquina
+```
+sudo yum update -y
+```
+2.Instalar Docker
+```
+sudo yum install docker
+```
+3.Inicie el servicio docker
+```
+sudo service docker start
+```
+4.A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker
+```
+docker run -d -p 42000:6000 --name firstdockerimageaws (nombredelrepositorio en Docker)
+```
+5.Verifique que puede acceder
