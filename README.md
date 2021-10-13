@@ -44,3 +44,10 @@ Entregable:
 3. Descripción de como correrlo en EC2
 4. Video de menos de un minuto del funcionamiento (lo puede tomar con el celular una vez funcione)
 
+
+##Clonar este repositorio
+
+git clone https://github.com/Daniel9842/ParcialArep2Corte
+
+
+
