@@ -12,7 +12,7 @@ public class App
         port(getPort());
         get("/hello", (req, res) -> "Hello World");
         get("/log", (req, res) -> MakeJSONFormat.JSONFormat("log",Double.valueOf(req.queryParams("value")), CalculatorFuncService.logFunction(Double.valueOf(req.queryParams("value")))));
-        get("/exp", (req, res) -> MakeJSONFormat.JSONFormat("log",Double.valueOf(req.queryParams("value")), CalculatorFuncService.expFunction(Double.valueOf(req.queryParams("value")))));
+        get("/exp", (req, res) -> MakeJSONFormat.JSONFormat("exp",Double.valueOf(req.queryParams("value")), CalculatorFuncService.expFunction(Double.valueOf(req.queryParams("value")))));
     }
 
     private static int getPort() {
