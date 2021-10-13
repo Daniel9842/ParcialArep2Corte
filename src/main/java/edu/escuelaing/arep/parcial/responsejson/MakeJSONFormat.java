@@ -5,9 +5,9 @@ import org.json.simple.JSONObject;
 public class MakeJSONFormat {
     public static Object JSONFormat(String function,Double value,Double answer){
         JSONObject answerFunction = new JSONObject();
-        answerFunction.put("operation",function);
-        answerFunction.put("input",value);
         answerFunction.put("output",answer);
+        answerFunction.put("input",value);
+        answerFunction.put("operation",function);
         return answerFunction;
     }
 }
