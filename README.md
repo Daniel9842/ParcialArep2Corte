@@ -46,25 +46,34 @@ Entregable:
 
 
 ## Para clonar este repositorio
-
+```
 git clone https://github.com/Daniel9842/ParcialArep2Corte
-
+```
 ## Para compilar el proyecto
-
+```
 mvn package
-
+```
 ## Para ejecutar localmente el proyecto
-
+```
 java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.parcial.App
-
+```
 Luego en el navegador colocar lo siguiente, en el valor de value puede colocar el valor que desee.
-
-http://localhost:4567/log?value=10
-
+```
+http://localhost:4567/log?value=2
+```
 ![function log](images/log.PNG "Log function")<br>
-
-http://localhost:4567/exp?value=2
-
+```
+http://localhost:4567/exp?value=10
+```
 ![function exp](images/exp.PNG "Exp function")<br>
+
+
+## Video EC2
+
+[EC2 ](https://github.com/Daniel9842/ParcialArep2Corte/blob/master/EC2%20video%20parcial.mp4)
+
+## Licensia
+
+[Licensia ](https://github.com/Daniel9842/ParcialArep2Corte/blob/master/LICENSE.txt)
 
 
