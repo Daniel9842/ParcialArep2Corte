@@ -45,9 +45,26 @@ Entregable:
 4. Video de menos de un minuto del funcionamiento (lo puede tomar con el celular una vez funcione)
 
 
-##Clonar este repositorio
+## Para clonar este repositorio
 
 git clone https://github.com/Daniel9842/ParcialArep2Corte
 
+## Para compilar el proyecto
+
+mvn package
+
+## Para ejecutar localmente el proyecto
+
+java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.parcial.App
+
+Luego en el navegador colocar lo siguiente, en el valor de value puede colocar el valor que desee.
+
+http://localhost:4567/log?value=10
+
+![function log](images/log.PNG "Log function")<br>
+
+http://localhost:4567/exp?value=2
+
+![function exp](images/exp.PNG "Exp function")<br>
 
 
