@@ -76,7 +76,7 @@ http://localhost:4567/exp?value=10
 
 [Licensia ](https://github.com/Daniel9842/ParcialArep2Corte/blob/master/LICENSE.txt)
 
-##EC2 
+## EC2 
 
 Acceda la máquina virtual en AWS y coloque los siguiente comandos:
 1.Actualiza la máquina
