@@ -8,6 +8,8 @@ public class App
     {
         port(getPort());
         get("/hello", (req, res) -> "Hello World");
+        get("/log", (req, res) -> "Hello World");
+        get("/exp", (req, res) -> "Hello World");
     }
 
     private static int getPort() {
